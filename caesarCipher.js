@@ -38,6 +38,22 @@ function run() {
     return;
   }
 
+  /* 
+  const aCode = "a".charCodeAt(0);
+  const alphabetSize = 26;
+  let result = "";
+
+  for (let char of text.toLowerCase()) {
+    if (/[a-z]/.test(char)) {
+      const code = ((char.charCodeAt(0) - aCode + shift + alphabetSize) % alphabetSize) + aCode;
+      result += String.fromCharCode(code);
+    } else {
+      result += char;
+    }
+  }
+
+  return result; */
+
   const encrypt = (text, shift) => {
     const alphabetSize = 26;
     const aCode = "a".charCodeAt(0);

@@ -9,7 +9,7 @@ function run() {
   const translateWord = (word) => {
     if (!word) return "";
 
-    // Starts with a vowel → just add "way"
+    // Starts with a vowel
     if (isVowel(word[0])) {
       return word + "way";
     }
