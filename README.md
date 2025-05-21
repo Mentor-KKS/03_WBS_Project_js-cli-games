@@ -80,11 +80,11 @@ Example:
 
 ## 📂 File Structure
 
-js-cli-games
-├── rockPaperScissors.js → Game logic
-├── pigLatin.js → Translation tool
-├── caesarCipher.js → Encryption tool
-└── README.md → Project overview
+js-cli-games<br>
+├── rockPaperScissors.js → Game logic<br>
+├── pigLatin.js → Translation tool<br>
+├── caesarCipher.js → Encryption tool<br>
+└── README.md → Project overview<br>
 
 ---
 
